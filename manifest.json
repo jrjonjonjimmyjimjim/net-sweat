@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Net-sweat",
+    "version": "1.0",
+
+    "description": "Warns you when tinkering around in a Netsuite prod account.",
+
+    "content_scripts": [
+        {
+            "matches": ["https://*.netsuite.com/*"],
+            "exclude_globs": [
+                "https://tstdrv*.netsuite.com/*",
+                "https://*-sb*.netsuite.com/*",
+                "https://system*.netsuite.com/*",
+                "https://www*.netsuite.com/*"
+            ],
+            "js": ["netsweat.js"]
+        }
+    ],
+
+    "permissions": [
+        "storage"
+    ]
+}
