@@ -18,7 +18,7 @@ function checkStoredSettings(storedSettings) {
         alert('You are accessing a Netsuite production account.');
     } else {
         previousTime = Date.parse(storedSettings.lastTime.time);
-        if (currentTime - previousTime > 360000) {
+        if (currentTime - previousTime > 600000) {
             alert('You are accessing a Netsuite production account.');
             lastTime.time = new Date();
             browser.storage.local.set({lastTime});
