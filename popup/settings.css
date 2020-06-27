@@ -1,0 +1,26 @@
+body {
+    background-color: white;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+#main-container {
+    background-color: #EEEEEE;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#reminder-delay-container {
+    background-color: #CCCCCC;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#submit-button {
+    background: linear-gradient(to bottom, #4C9DFF 2%, #187BF2 100%);
+    border: 1px solid #125AB2;
+    border-radius: 3px;
+    color: white;
+}
