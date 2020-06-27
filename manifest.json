@@ -20,5 +20,11 @@
 
     "permissions": [
         "storage"
-    ]
+    ],
+
+    "browser_action": {
+        "default_icon": "icons/ns.png",
+        "default_title": "Net-sweat",
+        "default_popup": "popup/settings.html"
+    }
 }
