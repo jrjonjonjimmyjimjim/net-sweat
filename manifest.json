@@ -2,6 +2,9 @@
     "manifest_version": 2,
     "name": "Net-sweat",
     "version": "1.0",
+    "icons": {
+        "48": "icons/ns.png"
+    },
 
     "description": "Warns you when tinkering around in a Netsuite prod account.",
 
