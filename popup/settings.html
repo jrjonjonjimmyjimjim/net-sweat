@@ -11,10 +11,16 @@
             <h1 id="title-text">Net-sweat Settings</h1>
             <div id="reminder-delay-container">
                 <h2 class="setting-category-text">Time Between Reminders</h2>
-                <label for="reminder-delay-input">minutes</label>
-                <input id="reminder-delay-input" type="number">
+                <p class="setting-category-text">
+                    Dictates the amount of time between warning popups. Increase this time if you feel that the popups are too frequent
+                    or get in the way more often than they remind you.
+                </p>
+                <div>
+                    <input id="reminder-delay-input" type="number" value="10">
+                    <p>minutes</p>
+                </div>
             </div>
-            <div id="submit-button">Save Changes</div>
+            <div id="submit-button">Save Settings</div>
         </div>
         <script src="settings.js"></script>
     </body>
