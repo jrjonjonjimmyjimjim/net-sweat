@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+    padding: 12px;
+    font-family: sans-serif;
+}
+
+#main-container {
+    background-color: #EEEEEE;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+}
+
+#reminder-delay-container {
+    background-color: #E0E0E0;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+#reminder-delay-container p {
+    text-align: left;
+}
+
+#reminder-delay-container div {
+    display: inline-block;
+}
+
+#reminder-delay-container div > * {
+    display: inline-block;
+    text-align: center;
+}
+
+#reminder-delay-input {
+    width: 100px;
+}
+
+#submit-button {
+    background: linear-gradient(to bottom, #4C9DFF 2%, #187BF2 100%);
+    border: 1px solid #125AB2;
+    border-radius: 3px;
+    color: white;
+    margin: 15px;
+    padding: 3px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#submit-button:hover {
+    background: #1070F2;
+    cursor: default;
+}
