@@ -9,6 +9,7 @@ function listenForClicks() {
         console.log("Click detected");
         var newDelay = document.getElementById("reminder-delay-input").value;
         browser.storage.local.set({delay: newDelay});
+        window.close();
     });
 }
 
